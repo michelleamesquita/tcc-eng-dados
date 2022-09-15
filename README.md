@@ -17,4 +17,4 @@ Check vulnerabilities and extract data from:
 
 ```docker-compose up```
 
-Enjoy it 
+Enjoy it 👩‍💻💜
