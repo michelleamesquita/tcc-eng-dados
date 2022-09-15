@@ -502,3 +502,143 @@
 [2022-09-15 01:17:40,317] {logging_mixin.py:115} INFO - [2022-09-15 01:17:40,316] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-09-15 01:17:40,342] {logging_mixin.py:115} INFO - [2022-09-15 01:17:40,342] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
 [2022-09-15 01:17:40,358] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.420 seconds
+[2022-09-15 01:18:10,771] {processor.py:153} INFO - Started process (PID=99005) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:18:10,773] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:18:10,775] {logging_mixin.py:115} INFO - [2022-09-15 01:18:10,775] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:18:11,055] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:18:11,086] {logging_mixin.py:115} INFO - [2022-09-15 01:18:11,086] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:18:11,109] {logging_mixin.py:115} INFO - [2022-09-15 01:18:11,109] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:18:11,123] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.358 seconds
+[2022-09-15 01:18:42,077] {processor.py:153} INFO - Started process (PID=99063) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:18:42,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:18:42,080] {logging_mixin.py:115} INFO - [2022-09-15 01:18:42,079] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:18:42,377] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:18:42,488] {logging_mixin.py:115} INFO - [2022-09-15 01:18:42,483] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:18:42,517] {logging_mixin.py:115} INFO - [2022-09-15 01:18:42,517] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:18:42,534] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.462 seconds
+[2022-09-15 01:19:13,229] {processor.py:153} INFO - Started process (PID=99133) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:19:13,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:19:13,232] {logging_mixin.py:115} INFO - [2022-09-15 01:19:13,232] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:19:13,543] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:19:13,584] {logging_mixin.py:115} INFO - [2022-09-15 01:19:13,583] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:19:13,612] {logging_mixin.py:115} INFO - [2022-09-15 01:19:13,612] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:19:13,630] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.405 seconds
+[2022-09-15 01:19:44,408] {processor.py:153} INFO - Started process (PID=99202) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:19:44,410] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:19:44,413] {logging_mixin.py:115} INFO - [2022-09-15 01:19:44,412] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:19:44,961] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:19:45,043] {logging_mixin.py:115} INFO - [2022-09-15 01:19:45,041] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:19:45,069] {logging_mixin.py:115} INFO - [2022-09-15 01:19:45,068] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:19:45,089] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.694 seconds
+[2022-09-15 01:20:15,877] {processor.py:153} INFO - Started process (PID=99259) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:20:15,880] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:20:15,884] {logging_mixin.py:115} INFO - [2022-09-15 01:20:15,883] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:20:16,249] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:20:16,281] {logging_mixin.py:115} INFO - [2022-09-15 01:20:16,280] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:20:16,304] {logging_mixin.py:115} INFO - [2022-09-15 01:20:16,304] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:20:16,323] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.458 seconds
+[2022-09-15 01:20:46,759] {processor.py:153} INFO - Started process (PID=99328) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:20:46,762] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:20:46,765] {logging_mixin.py:115} INFO - [2022-09-15 01:20:46,765] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:20:47,096] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:20:47,206] {logging_mixin.py:115} INFO - [2022-09-15 01:20:47,204] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:20:47,240] {logging_mixin.py:115} INFO - [2022-09-15 01:20:47,240] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:20:47,257] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.504 seconds
+[2022-09-15 01:21:18,072] {processor.py:153} INFO - Started process (PID=99397) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:21:18,074] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:21:18,084] {logging_mixin.py:115} INFO - [2022-09-15 01:21:18,084] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:21:18,377] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:21:18,414] {logging_mixin.py:115} INFO - [2022-09-15 01:21:18,413] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:21:18,437] {logging_mixin.py:115} INFO - [2022-09-15 01:21:18,437] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:21:18,448] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.382 seconds
+[2022-09-15 01:21:49,300] {processor.py:153} INFO - Started process (PID=99465) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:21:49,302] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:21:49,304] {logging_mixin.py:115} INFO - [2022-09-15 01:21:49,304] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:21:49,582] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:21:49,669] {logging_mixin.py:115} INFO - [2022-09-15 01:21:49,668] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:21:49,696] {logging_mixin.py:115} INFO - [2022-09-15 01:21:49,695] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:21:49,712] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.419 seconds
+[2022-09-15 01:22:19,806] {processor.py:153} INFO - Started process (PID=99525) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:22:19,808] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:22:19,810] {logging_mixin.py:115} INFO - [2022-09-15 01:22:19,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:22:20,082] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:22:20,101] {logging_mixin.py:115} INFO - [2022-09-15 01:22:20,100] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:22:20,127] {logging_mixin.py:115} INFO - [2022-09-15 01:22:20,127] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:22:20,142] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.344 seconds
+[2022-09-15 01:22:50,956] {processor.py:153} INFO - Started process (PID=99592) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:22:50,960] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:22:50,964] {logging_mixin.py:115} INFO - [2022-09-15 01:22:50,963] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:22:51,235] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:22:51,314] {logging_mixin.py:115} INFO - [2022-09-15 01:22:51,313] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:22:51,336] {logging_mixin.py:115} INFO - [2022-09-15 01:22:51,336] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:22:51,353] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.403 seconds
+[2022-09-15 01:23:22,160] {processor.py:153} INFO - Started process (PID=99661) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:23:22,162] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:23:22,164] {logging_mixin.py:115} INFO - [2022-09-15 01:23:22,164] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:23:22,453] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:23:22,484] {logging_mixin.py:115} INFO - [2022-09-15 01:23:22,483] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:23:22,510] {logging_mixin.py:115} INFO - [2022-09-15 01:23:22,510] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:23:22,525] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.370 seconds
+[2022-09-15 01:23:53,409] {processor.py:153} INFO - Started process (PID=99720) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:23:53,411] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:23:53,413] {logging_mixin.py:115} INFO - [2022-09-15 01:23:53,413] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:23:53,674] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:23:53,743] {logging_mixin.py:115} INFO - [2022-09-15 01:23:53,742] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:23:53,772] {logging_mixin.py:115} INFO - [2022-09-15 01:23:53,772] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:23:53,789] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.388 seconds
+[2022-09-15 01:24:23,837] {processor.py:153} INFO - Started process (PID=99788) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:24:23,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:24:23,841] {logging_mixin.py:115} INFO - [2022-09-15 01:24:23,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:24:24,154] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:24:24,184] {logging_mixin.py:115} INFO - [2022-09-15 01:24:24,183] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:24:24,207] {logging_mixin.py:115} INFO - [2022-09-15 01:24:24,207] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:24:24,221] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.388 seconds
+[2022-09-15 01:24:54,806] {processor.py:153} INFO - Started process (PID=99857) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:24:54,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:24:54,809] {logging_mixin.py:115} INFO - [2022-09-15 01:24:54,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:24:55,219] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:24:55,366] {logging_mixin.py:115} INFO - [2022-09-15 01:24:55,364] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:24:55,402] {logging_mixin.py:115} INFO - [2022-09-15 01:24:55,401] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:24:55,421] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.619 seconds
+[2022-09-15 01:25:26,154] {processor.py:153} INFO - Started process (PID=99914) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:25:26,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:25:26,158] {logging_mixin.py:115} INFO - [2022-09-15 01:25:26,158] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:25:26,429] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:25:26,460] {logging_mixin.py:115} INFO - [2022-09-15 01:25:26,459] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:25:26,483] {logging_mixin.py:115} INFO - [2022-09-15 01:25:26,483] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:25:26,498] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.350 seconds
+[2022-09-15 01:25:56,711] {processor.py:153} INFO - Started process (PID=99982) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:25:56,712] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:25:56,714] {logging_mixin.py:115} INFO - [2022-09-15 01:25:56,714] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:25:56,966] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:25:57,057] {logging_mixin.py:115} INFO - [2022-09-15 01:25:57,056] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:25:57,106] {logging_mixin.py:115} INFO - [2022-09-15 01:25:57,105] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:25:57,123] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.417 seconds
+[2022-09-15 01:26:27,268] {processor.py:153} INFO - Started process (PID=353) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:26:27,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:26:27,274] {logging_mixin.py:115} INFO - [2022-09-15 01:26:27,273] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:26:27,627] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:26:27,654] {logging_mixin.py:115} INFO - [2022-09-15 01:26:27,653] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:26:27,684] {logging_mixin.py:115} INFO - [2022-09-15 01:26:27,684] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:26:27,702] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.443 seconds
+[2022-09-15 01:26:58,714] {processor.py:153} INFO - Started process (PID=418) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:26:58,717] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:26:58,720] {logging_mixin.py:115} INFO - [2022-09-15 01:26:58,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:26:59,115] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:26:59,203] {logging_mixin.py:115} INFO - [2022-09-15 01:26:59,202] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:26:59,235] {logging_mixin.py:115} INFO - [2022-09-15 01:26:59,235] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:26:59,251] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.543 seconds
+[2022-09-15 01:27:30,003] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:27:30,006] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:27:30,007] {logging_mixin.py:115} INFO - [2022-09-15 01:27:30,007] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:27:30,269] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:27:30,304] {logging_mixin.py:115} INFO - [2022-09-15 01:27:30,303] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:27:30,332] {logging_mixin.py:115} INFO - [2022-09-15 01:27:30,332] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:27:30,349] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.350 seconds
+[2022-09-15 01:28:01,161] {processor.py:153} INFO - Started process (PID=546) to work on /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:28:01,163] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py for tasks to queue
+[2022-09-15 01:28:01,167] {logging_mixin.py:115} INFO - [2022-09-15 01:28:01,166] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:28:01,540] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py
+[2022-09-15 01:28:01,648] {logging_mixin.py:115} INFO - [2022-09-15 01:28:01,647] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:28:01,693] {logging_mixin.py:115} INFO - [2022-09-15 01:28:01,693] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:28:01,711] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py took 0.555 seconds

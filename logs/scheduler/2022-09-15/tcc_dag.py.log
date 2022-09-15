@@ -502,3 +502,143 @@
 [2022-09-15 01:17:40,269] {logging_mixin.py:115} INFO - [2022-09-15 01:17:40,268] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-09-15 01:17:40,292] {logging_mixin.py:115} INFO - [2022-09-15 01:17:40,292] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
 [2022-09-15 01:17:40,306] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.376 seconds
+[2022-09-15 01:18:10,758] {processor.py:153} INFO - Started process (PID=99004) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:18:10,760] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:18:10,763] {logging_mixin.py:115} INFO - [2022-09-15 01:18:10,762] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:18:11,056] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:18:11,122] {logging_mixin.py:115} INFO - [2022-09-15 01:18:11,121] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:18:11,155] {logging_mixin.py:115} INFO - [2022-09-15 01:18:11,154] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:18:11,171] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.418 seconds
+[2022-09-15 01:18:42,067] {processor.py:153} INFO - Started process (PID=99062) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:18:42,069] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:18:42,070] {logging_mixin.py:115} INFO - [2022-09-15 01:18:42,070] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:18:42,341] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:18:42,385] {logging_mixin.py:115} INFO - [2022-09-15 01:18:42,384] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:18:42,417] {logging_mixin.py:115} INFO - [2022-09-15 01:18:42,417] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:18:42,436] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.373 seconds
+[2022-09-15 01:19:13,229] {processor.py:153} INFO - Started process (PID=99132) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:19:13,232] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:19:13,235] {logging_mixin.py:115} INFO - [2022-09-15 01:19:13,234] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:19:13,569] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:19:13,653] {logging_mixin.py:115} INFO - [2022-09-15 01:19:13,650] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:19:13,693] {logging_mixin.py:115} INFO - [2022-09-15 01:19:13,693] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:19:13,709] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.489 seconds
+[2022-09-15 01:19:44,392] {processor.py:153} INFO - Started process (PID=99201) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:19:44,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:19:44,400] {logging_mixin.py:115} INFO - [2022-09-15 01:19:44,400] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:19:44,944] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:19:44,983] {logging_mixin.py:115} INFO - [2022-09-15 01:19:44,982] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:19:45,008] {logging_mixin.py:115} INFO - [2022-09-15 01:19:45,008] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:19:45,023] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.638 seconds
+[2022-09-15 01:20:15,865] {processor.py:153} INFO - Started process (PID=99258) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:20:15,868] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:20:15,873] {logging_mixin.py:115} INFO - [2022-09-15 01:20:15,873] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:20:16,243] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:20:16,328] {logging_mixin.py:115} INFO - [2022-09-15 01:20:16,326] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:20:16,356] {logging_mixin.py:115} INFO - [2022-09-15 01:20:16,356] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:20:16,371] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.517 seconds
+[2022-09-15 01:20:46,743] {processor.py:153} INFO - Started process (PID=99327) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:20:46,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:20:46,749] {logging_mixin.py:115} INFO - [2022-09-15 01:20:46,749] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:20:47,102] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:20:47,154] {logging_mixin.py:115} INFO - [2022-09-15 01:20:47,153] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:20:47,183] {logging_mixin.py:115} INFO - [2022-09-15 01:20:47,183] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:20:47,199] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.463 seconds
+[2022-09-15 01:21:18,032] {processor.py:153} INFO - Started process (PID=99396) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:21:18,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:21:18,042] {logging_mixin.py:115} INFO - [2022-09-15 01:21:18,042] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:21:18,380] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:21:18,459] {logging_mixin.py:115} INFO - [2022-09-15 01:21:18,458] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:21:18,483] {logging_mixin.py:115} INFO - [2022-09-15 01:21:18,483] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:21:18,502] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.478 seconds
+[2022-09-15 01:21:49,283] {processor.py:153} INFO - Started process (PID=99464) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:21:49,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:21:49,287] {logging_mixin.py:115} INFO - [2022-09-15 01:21:49,286] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:21:49,540] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:21:49,573] {logging_mixin.py:115} INFO - [2022-09-15 01:21:49,572] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:21:49,596] {logging_mixin.py:115} INFO - [2022-09-15 01:21:49,596] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:21:49,608] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.329 seconds
+[2022-09-15 01:22:19,712] {processor.py:153} INFO - Started process (PID=99523) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:22:19,714] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:22:19,715] {logging_mixin.py:115} INFO - [2022-09-15 01:22:19,715] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:22:19,977] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:22:20,043] {logging_mixin.py:115} INFO - [2022-09-15 01:22:20,042] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:22:20,064] {logging_mixin.py:115} INFO - [2022-09-15 01:22:20,064] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:22:20,089] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.383 seconds
+[2022-09-15 01:22:50,946] {processor.py:153} INFO - Started process (PID=99591) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:22:50,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:22:50,950] {logging_mixin.py:115} INFO - [2022-09-15 01:22:50,950] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:22:51,213] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:22:51,254] {logging_mixin.py:115} INFO - [2022-09-15 01:22:51,253] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:22:51,280] {logging_mixin.py:115} INFO - [2022-09-15 01:22:51,279] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:22:51,295] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.354 seconds
+[2022-09-15 01:23:22,155] {processor.py:153} INFO - Started process (PID=99660) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:23:22,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:23:22,160] {logging_mixin.py:115} INFO - [2022-09-15 01:23:22,159] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:23:22,446] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:23:22,524] {logging_mixin.py:115} INFO - [2022-09-15 01:23:22,522] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:23:22,548] {logging_mixin.py:115} INFO - [2022-09-15 01:23:22,548] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:23:22,564] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.414 seconds
+[2022-09-15 01:23:53,394] {processor.py:153} INFO - Started process (PID=99719) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:23:53,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:23:53,398] {logging_mixin.py:115} INFO - [2022-09-15 01:23:53,398] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:23:53,656] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:23:53,686] {logging_mixin.py:115} INFO - [2022-09-15 01:23:53,685] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:23:53,707] {logging_mixin.py:115} INFO - [2022-09-15 01:23:53,707] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:23:53,720] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.329 seconds
+[2022-09-15 01:24:23,838] {processor.py:153} INFO - Started process (PID=99787) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:24:23,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:24:23,842] {logging_mixin.py:115} INFO - [2022-09-15 01:24:23,842] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:24:24,151] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:24:24,236] {logging_mixin.py:115} INFO - [2022-09-15 01:24:24,235] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:24:24,264] {logging_mixin.py:115} INFO - [2022-09-15 01:24:24,264] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:24:24,279] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.445 seconds
+[2022-09-15 01:24:54,818] {processor.py:153} INFO - Started process (PID=99856) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:24:54,822] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:24:54,825] {logging_mixin.py:115} INFO - [2022-09-15 01:24:54,825] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:24:55,253] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:24:55,295] {logging_mixin.py:115} INFO - [2022-09-15 01:24:55,293] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:24:55,352] {logging_mixin.py:115} INFO - [2022-09-15 01:24:55,351] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:24:55,368] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.569 seconds
+[2022-09-15 01:25:26,147] {processor.py:153} INFO - Started process (PID=99913) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:25:26,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:25:26,149] {logging_mixin.py:115} INFO - [2022-09-15 01:25:26,149] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:25:26,429] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:25:26,503] {logging_mixin.py:115} INFO - [2022-09-15 01:25:26,502] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:25:26,535] {logging_mixin.py:115} INFO - [2022-09-15 01:25:26,535] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:25:26,556] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.417 seconds
+[2022-09-15 01:25:56,702] {processor.py:153} INFO - Started process (PID=99981) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:25:56,703] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:25:56,705] {logging_mixin.py:115} INFO - [2022-09-15 01:25:56,705] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:25:56,966] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:25:57,004] {logging_mixin.py:115} INFO - [2022-09-15 01:25:57,003] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:25:57,030] {logging_mixin.py:115} INFO - [2022-09-15 01:25:57,030] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:25:57,046] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.348 seconds
+[2022-09-15 01:26:27,257] {processor.py:153} INFO - Started process (PID=352) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:26:27,259] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:26:27,260] {logging_mixin.py:115} INFO - [2022-09-15 01:26:27,260] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:26:27,646] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:26:27,743] {logging_mixin.py:115} INFO - [2022-09-15 01:26:27,742] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:26:27,766] {logging_mixin.py:115} INFO - [2022-09-15 01:26:27,766] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:26:27,783] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.531 seconds
+[2022-09-15 01:26:58,705] {processor.py:153} INFO - Started process (PID=417) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:26:58,717] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:26:58,721] {logging_mixin.py:115} INFO - [2022-09-15 01:26:58,720] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:26:59,069] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:26:59,125] {logging_mixin.py:115} INFO - [2022-09-15 01:26:59,123] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:26:59,151] {logging_mixin.py:115} INFO - [2022-09-15 01:26:59,151] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:26:59,168] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.469 seconds
+[2022-09-15 01:27:29,999] {processor.py:153} INFO - Started process (PID=477) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:27:30,001] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:27:30,002] {logging_mixin.py:115} INFO - [2022-09-15 01:27:30,002] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:27:30,282] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:27:30,386] {logging_mixin.py:115} INFO - [2022-09-15 01:27:30,384] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:27:30,420] {logging_mixin.py:115} INFO - [2022-09-15 01:27:30,420] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:27:30,441] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.447 seconds
+[2022-09-15 01:28:01,151] {processor.py:153} INFO - Started process (PID=545) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:28:01,153] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-15 01:28:01,156] {logging_mixin.py:115} INFO - [2022-09-15 01:28:01,156] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:28:01,526] {processor.py:651} INFO - DAG(s) dict_keys(['tcc_dag']) retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-15 01:28:01,573] {logging_mixin.py:115} INFO - [2022-09-15 01:28:01,572] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-09-15 01:28:01,607] {logging_mixin.py:115} INFO - [2022-09-15 01:28:01,607] {dag.py:2919} INFO - Setting next_dagrun for tcc_dag to 2022-09-14T05:03:42.952165+00:00, run_after=2022-09-15T05:03:42.952165+00:00
+[2022-09-15 01:28:01,625] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.482 seconds
