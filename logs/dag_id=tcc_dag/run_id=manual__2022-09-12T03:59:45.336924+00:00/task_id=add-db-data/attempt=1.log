@@ -1,0 +1,76 @@
+[2022-09-12 03:59:56,402] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.add-db-data manual__2022-09-12T03:59:45.336924+00:00 [queued]>
+[2022-09-12 03:59:56,412] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.add-db-data manual__2022-09-12T03:59:45.336924+00:00 [queued]>
+[2022-09-12 03:59:56,413] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-12 03:59:56,414] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-12 03:59:56,415] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-12 03:59:56,431] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): add-db-data> on 2022-09-12 03:59:45.336924+00:00
+[2022-09-12 03:59:56,437] {standard_task_runner.py:52} INFO - Started process 20924 to run task
+[2022-09-12 03:59:56,441] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tcc_dag', 'add-db-data', 'manual__2022-09-12T03:59:45.336924+00:00', '--job-id', '658', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/tcc_dag-checkpoint.py', '--cfg-path', '/tmp/tmppz4yzd73', '--error-file', '/tmp/tmp59x972n6']
+[2022-09-12 03:59:56,442] {standard_task_runner.py:80} INFO - Job 658: Subtask add-db-data
+[2022-09-12 03:59:56,504] {task_command.py:369} INFO - Running <TaskInstance: tcc_dag.add-db-data manual__2022-09-12T03:59:45.336924+00:00 [running]> on host b6ddae3e9f9e
+[2022-09-12 03:59:56,582] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Michelle Mesquita
+AIRFLOW_CTX_DAG_ID=tcc_dag
+AIRFLOW_CTX_TASK_ID=add-db-data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-12T03:59:45.336924+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-12T03:59:45.336924+00:00
+[2022-09-12 03:59:56,596] {logging_mixin.py:115} INFO - Connecting to the MySQL database...
+[2022-09-12 03:59:56,628] {logging_mixin.py:115} INFO - Database connection closed.
+[2022-09-12 03:59:56,654] {logging_mixin.py:115} INFO -             nm_squad  ... id_vulnerability
+0  michelleamesquita  ...                0
+1  michelleamesquita  ...                1
+2  michelleamesquita  ...                2
+3  michelleamesquita  ...                3
+4  michelleamesquita  ...                4
+
+[5 rows x 14 columns]
+[2022-09-12 03:59:56,669] {logging_mixin.py:115} INFO -    id_vulnerability           nm_squad  ... cd_month_end            dt_added
+0                 0  michelleamesquita  ...      2022-12 2022-09-08 10:07:47
+1                 1  michelleamesquita  ...      2022-10 2022-09-08 10:07:47
+2                 2  michelleamesquita  ...      2022-12 2022-09-08 10:07:47
+3                 3  michelleamesquita  ...      2022-12 2022-09-08 10:07:47
+4                 4  michelleamesquita  ...      2022-12 2022-09-08 10:07:47
+
+[5 rows x 15 columns]
+[2022-09-12 03:59:56,685] {logging_mixin.py:115} INFO -    index           nm_squad  ... id_vulnerability dt_added
+0      9  michelleamesquita  ...                9      NaT
+1     10  michelleamesquita  ...               10      NaT
+
+[2 rows x 16 columns]
+[2022-09-12 03:59:56,686] {logging_mixin.py:115} INFO - 2
+[2022-09-12 03:59:56,690] {logging_mixin.py:115} INFO - Connecting to the MySQL database...
+[2022-09-12 03:59:56,718] {logging_mixin.py:115} INFO - Database connection closed.
+[2022-09-12 03:59:56,724] {python.py:173} INFO - Done. Returned value was: (    index           nm_squad  ... id_vulnerability dt_added
+14      9  michelleamesquita  ...               14      NaT
+15     10  michelleamesquita  ...               15      NaT
+
+[2 rows x 16 columns], [])
+[2022-09-12 03:59:56,749] {xcom.py:585} ERROR - Could not serialize the XCom value into JSON. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your *** config.
+[2022-09-12 03:59:56,751] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2380, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 197, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 582, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+[2022-09-12 03:59:56,763] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=tcc_dag, task_id=add-db-data, execution_date=20220912T035945, start_date=20220912T035956, end_date=20220912T035956
+[2022-09-12 03:59:56,774] {standard_task_runner.py:97} ERROR - Failed to execute job 658 for task add-db-data (Object of type DataFrame is not JSON serializable; 20924)
+[2022-09-12 03:59:56,816] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-09-12 03:59:56,859] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

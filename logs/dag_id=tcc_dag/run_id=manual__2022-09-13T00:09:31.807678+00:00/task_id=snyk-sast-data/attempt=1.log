@@ -1,0 +1,25 @@
+[2022-09-13 00:09:34,414] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.snyk-sast-data manual__2022-09-13T00:09:31.807678+00:00 [queued]>
+[2022-09-13 00:09:34,449] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.snyk-sast-data manual__2022-09-13T00:09:31.807678+00:00 [queued]>
+[2022-09-13 00:09:34,456] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-13 00:09:34,458] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-13 00:09:34,459] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-13 00:09:34,497] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): snyk-sast-data> on 2022-09-13 00:09:31.807678+00:00
+[2022-09-13 00:09:34,509] {standard_task_runner.py:52} INFO - Started process 28354 to run task
+[2022-09-13 00:09:34,537] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tcc_dag', 'snyk-sast-data', 'manual__2022-09-13T00:09:31.807678+00:00', '--job-id', '754', '--raw', '--subdir', 'DAGS_FOLDER/tcc_dag.py', '--cfg-path', '/tmp/tmpg4rskw5s', '--error-file', '/tmp/tmpi81rvt4v']
+[2022-09-13 00:09:34,543] {standard_task_runner.py:80} INFO - Job 754: Subtask snyk-sast-data
+[2022-09-13 00:09:34,694] {task_command.py:369} INFO - Running <TaskInstance: tcc_dag.snyk-sast-data manual__2022-09-13T00:09:31.807678+00:00 [running]> on host b6ddae3e9f9e
+[2022-09-13 00:09:34,895] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Michelle Mesquita
+AIRFLOW_CTX_DAG_ID=tcc_dag
+AIRFLOW_CTX_TASK_ID=snyk-sast-data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-13T00:09:31.807678+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-13T00:09:31.807678+00:00
+[2022-09-13 00:09:34,899] {logging_mixin.py:115} INFO - project_id: 5e157f37-dace-4d41-91ba-3c3430cc8f5a
+[2022-09-13 00:09:42,943] {logging_mixin.py:115} INFO - project_id: c6e8d78c-f60e-4fbb-bf24-c4b854164caa
+[2022-09-13 00:09:44,782] {python.py:173} INFO - Done. Returned value was: None
+[2022-09-13 00:09:44,801] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tcc_dag, task_id=snyk-sast-data, execution_date=20220913T000931, start_date=20220913T000934, end_date=20220913T000944
+[2022-09-13 00:09:44,839] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-13 00:09:44,882] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

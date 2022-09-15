@@ -1,0 +1,1071 @@
+[2022-09-10 00:11:49,137] {processor.py:153} INFO - Started process (PID=7125) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:11:49,141] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 00:11:49,144] {logging_mixin.py:115} INFO - [2022-09-10 00:11:49,144] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:11:49,162] {logging_mixin.py:115} INFO - [2022-09-10 00:11:49,161] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 00:11:49,164] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:11:49,239] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.111 seconds
+[2022-09-10 00:12:42,823] {processor.py:153} INFO - Started process (PID=7184) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:12:42,831] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 00:12:42,833] {logging_mixin.py:115} INFO - [2022-09-10 00:12:42,833] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:12:42,842] {logging_mixin.py:115} INFO - [2022-09-10 00:12:42,840] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 00:12:42,843] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:12:42,900] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.084 seconds
+[2022-09-10 00:28:40,263] {processor.py:153} INFO - Started process (PID=7198) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:28:40,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 00:28:40,397] {logging_mixin.py:115} INFO - [2022-09-10 00:28:40,394] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:28:40,702] {logging_mixin.py:115} INFO - [2022-09-10 00:28:40,641] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 00:28:40,741] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:28:43,862] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 4.285 seconds
+[2022-09-10 00:29:17,979] {processor.py:153} INFO - Started process (PID=7253) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:29:17,985] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 00:29:17,988] {logging_mixin.py:115} INFO - [2022-09-10 00:29:17,988] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:29:18,004] {logging_mixin.py:115} INFO - [2022-09-10 00:29:18,001] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 00:29:18,016] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 00:29:18,076] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.104 seconds
+[2022-09-10 01:08:01,822] {processor.py:153} INFO - Started process (PID=7261) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 01:08:01,887] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 01:08:02,013] {logging_mixin.py:115} INFO - [2022-09-10 01:08:02,011] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 01:08:02,384] {logging_mixin.py:115} INFO - [2022-09-10 01:08:02,308] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 01:08:02,471] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 01:08:06,265] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 4.553 seconds
+[2022-09-10 02:01:43,933] {processor.py:153} INFO - Started process (PID=7316) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:01:43,936] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 02:01:43,939] {logging_mixin.py:115} INFO - [2022-09-10 02:01:43,938] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:01:43,958] {logging_mixin.py:115} INFO - [2022-09-10 02:01:43,953] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 02:01:43,961] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:01:44,044] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.121 seconds
+[2022-09-10 02:02:31,366] {processor.py:153} INFO - Started process (PID=7344) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:02:31,374] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 02:02:31,379] {logging_mixin.py:115} INFO - [2022-09-10 02:02:31,379] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:02:31,422] {logging_mixin.py:115} INFO - [2022-09-10 02:02:31,421] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 02:02:31,431] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:02:31,585] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.262 seconds
+[2022-09-10 02:55:51,080] {processor.py:153} INFO - Started process (PID=7378) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:55:51,081] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 02:55:51,083] {logging_mixin.py:115} INFO - [2022-09-10 02:55:51,083] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:55:51,092] {logging_mixin.py:115} INFO - [2022-09-10 02:55:51,090] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 02:55:51,094] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:55:51,130] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.054 seconds
+[2022-09-10 02:56:36,092] {processor.py:153} INFO - Started process (PID=7426) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:56:36,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 02:56:36,109] {logging_mixin.py:115} INFO - [2022-09-10 02:56:36,108] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:56:36,131] {logging_mixin.py:115} INFO - [2022-09-10 02:56:36,129] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 02:56:36,141] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 02:56:36,246] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.173 seconds
+[2022-09-10 03:50:08,488] {processor.py:153} INFO - Started process (PID=7457) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 03:50:08,526] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 03:50:08,583] {logging_mixin.py:115} INFO - [2022-09-10 03:50:08,576] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 03:50:09,132] {logging_mixin.py:115} INFO - [2022-09-10 03:50:09,043] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 03:50:09,203] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 03:50:12,079] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 3.839 seconds
+[2022-09-10 03:50:54,356] {processor.py:153} INFO - Started process (PID=7525) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 03:50:54,357] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 03:50:54,359] {logging_mixin.py:115} INFO - [2022-09-10 03:50:54,359] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 03:50:54,369] {logging_mixin.py:115} INFO - [2022-09-10 03:50:54,367] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 03:50:54,370] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 03:50:54,455] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.108 seconds
+[2022-09-10 04:44:27,485] {processor.py:153} INFO - Started process (PID=7536) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 04:44:27,642] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 04:44:27,856] {logging_mixin.py:115} INFO - [2022-09-10 04:44:27,847] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 04:44:28,439] {logging_mixin.py:115} INFO - [2022-09-10 04:44:28,288] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 04:44:28,477] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 04:44:31,348] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 4.894 seconds
+[2022-09-10 05:11:28,838] {processor.py:153} INFO - Started process (PID=7612) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:11:28,842] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 05:11:28,845] {logging_mixin.py:115} INFO - [2022-09-10 05:11:28,845] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:11:28,884] {logging_mixin.py:115} INFO - [2022-09-10 05:11:28,880] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 05:11:28,886] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:11:28,972] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.143 seconds
+[2022-09-10 05:12:12,315] {processor.py:153} INFO - Started process (PID=7664) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:12:12,399] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 05:12:12,486] {logging_mixin.py:115} INFO - [2022-09-10 05:12:12,448] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:12:12,980] {logging_mixin.py:115} INFO - [2022-09-10 05:12:12,932] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 05:12:13,011] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:12:18,122] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 6.391 seconds
+[2022-09-10 05:50:29,331] {processor.py:153} INFO - Started process (PID=7711) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:50:29,402] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 05:50:29,555] {logging_mixin.py:115} INFO - [2022-09-10 05:50:29,538] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:50:30,063] {logging_mixin.py:115} INFO - [2022-09-10 05:50:29,922] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 05:50:30,108] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:50:32,344] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 3.651 seconds
+[2022-09-10 05:51:13,647] {processor.py:153} INFO - Started process (PID=7775) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:51:13,655] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 05:51:13,657] {logging_mixin.py:115} INFO - [2022-09-10 05:51:13,657] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:51:13,668] {logging_mixin.py:115} INFO - [2022-09-10 05:51:13,667] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 05:51:13,670] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 05:51:13,708] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.066 seconds
+[2022-09-10 06:44:55,256] {processor.py:153} INFO - Started process (PID=7785) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 06:44:55,379] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 06:44:55,464] {logging_mixin.py:115} INFO - [2022-09-10 06:44:55,462] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 06:44:56,371] {logging_mixin.py:115} INFO - [2022-09-10 06:44:56,144] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 06:44:56,496] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 06:45:01,487] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 7.006 seconds
+[2022-09-10 06:45:34,164] {processor.py:153} INFO - Started process (PID=7840) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 06:45:34,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 06:45:34,343] {logging_mixin.py:115} INFO - [2022-09-10 06:45:34,341] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 06:45:34,876] {logging_mixin.py:115} INFO - [2022-09-10 06:45:34,821] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 06:45:34,959] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 07:38:52,653] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 5.837 seconds
+[2022-09-10 07:39:08,604] {processor.py:153} INFO - Started process (PID=7849) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 07:39:08,743] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 07:39:09,758] {logging_mixin.py:115} INFO - [2022-09-10 07:39:09,738] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 07:39:11,416] {logging_mixin.py:115} INFO - [2022-09-10 07:39:11,125] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 07:39:11,610] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 07:39:19,049] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 11.448 seconds
+[2022-09-10 08:33:34,976] {processor.py:153} INFO - Started process (PID=7916) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 08:33:34,978] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 08:33:34,983] {logging_mixin.py:115} INFO - [2022-09-10 08:33:34,983] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 08:33:35,009] {logging_mixin.py:115} INFO - [2022-09-10 08:33:35,008] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 08:33:35,018] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 08:33:35,128] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.167 seconds
+[2022-09-10 09:22:31,966] {processor.py:153} INFO - Started process (PID=7943) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 09:22:32,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 09:22:32,139] {logging_mixin.py:115} INFO - [2022-09-10 09:22:32,117] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 09:22:32,563] {logging_mixin.py:115} INFO - [2022-09-10 09:22:32,485] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 09:22:32,661] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 09:22:37,783] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 6.330 seconds
+[2022-09-10 09:23:09,477] {processor.py:153} INFO - Started process (PID=7983) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 09:23:09,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 09:23:09,481] {logging_mixin.py:115} INFO - [2022-09-10 09:23:09,481] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 09:23:09,493] {logging_mixin.py:115} INFO - [2022-09-10 09:23:09,492] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 09:23:09,494] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 09:23:09,566] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.101 seconds
+[2022-09-10 10:16:44,795] {processor.py:153} INFO - Started process (PID=8005) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 10:16:44,903] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 10:16:45,078] {logging_mixin.py:115} INFO - [2022-09-10 10:16:45,012] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 10:16:46,171] {logging_mixin.py:115} INFO - [2022-09-10 10:16:45,804] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 10:16:46,228] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 10:16:49,981] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 6.032 seconds
+[2022-09-10 11:16:11,765] {processor.py:153} INFO - Started process (PID=8074) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 11:16:11,768] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 11:16:11,770] {logging_mixin.py:115} INFO - [2022-09-10 11:16:11,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 11:16:11,782] {logging_mixin.py:115} INFO - [2022-09-10 11:16:11,780] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 11:16:11,784] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 11:16:11,963] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.209 seconds
+[2022-09-10 11:16:47,625] {processor.py:153} INFO - Started process (PID=8126) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 11:16:47,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 11:16:47,864] {logging_mixin.py:115} INFO - [2022-09-10 11:16:47,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 11:16:48,971] {logging_mixin.py:115} INFO - [2022-09-10 11:16:48,719] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 11:16:49,066] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 11:16:51,561] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 5.152 seconds
+[2022-09-10 12:05:17,261] {processor.py:153} INFO - Started process (PID=8177) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:05:17,265] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 12:05:17,268] {logging_mixin.py:115} INFO - [2022-09-10 12:05:17,268] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:05:17,285] {logging_mixin.py:115} INFO - [2022-09-10 12:05:17,281] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 12:05:17,287] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:05:17,335] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.086 seconds
+[2022-09-10 12:06:19,390] {processor.py:153} INFO - Started process (PID=8216) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:06:19,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 12:06:19,422] {logging_mixin.py:115} INFO - [2022-09-10 12:06:19,422] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:06:19,486] {logging_mixin.py:115} INFO - [2022-09-10 12:06:19,483] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 12:06:19,559] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:06:19,902] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.598 seconds
+[2022-09-10 12:06:50,270] {processor.py:153} INFO - Started process (PID=8272) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:06:50,273] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 12:06:50,277] {logging_mixin.py:115} INFO - [2022-09-10 12:06:50,277] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:06:50,308] {logging_mixin.py:115} INFO - [2022-09-10 12:06:50,304] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 12:06:50,312] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:06:50,420] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.168 seconds
+[2022-09-10 12:59:29,438] {processor.py:153} INFO - Started process (PID=8312) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:59:29,442] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 12:59:29,446] {logging_mixin.py:115} INFO - [2022-09-10 12:59:29,446] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:59:29,462] {logging_mixin.py:115} INFO - [2022-09-10 12:59:29,459] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 12:59:29,464] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 12:59:29,522] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.106 seconds
+[2022-09-10 13:00:23,305] {processor.py:153} INFO - Started process (PID=8377) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 13:00:23,308] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 13:00:23,313] {logging_mixin.py:115} INFO - [2022-09-10 13:00:23,313] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 13:00:23,339] {logging_mixin.py:115} INFO - [2022-09-10 13:00:23,334] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 13:00:23,341] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 13:00:23,414] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.128 seconds
+[2022-09-10 13:53:57,592] {processor.py:153} INFO - Started process (PID=8400) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 13:53:57,836] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 13:53:58,044] {logging_mixin.py:115} INFO - [2022-09-10 13:53:58,016] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 13:53:58,927] {logging_mixin.py:115} INFO - [2022-09-10 13:53:58,766] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 13:53:59,083] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 13:54:02,891] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 5.943 seconds
+[2022-09-10 14:48:37,150] {processor.py:153} INFO - Started process (PID=8478) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 14:48:37,160] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 14:48:37,162] {logging_mixin.py:115} INFO - [2022-09-10 14:48:37,162] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 14:48:37,171] {logging_mixin.py:115} INFO - [2022-09-10 14:48:37,170] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 14:48:37,173] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 14:48:37,237] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.093 seconds
+[2022-09-10 14:55:08,592] {processor.py:153} INFO - Started process (PID=8517) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 14:55:08,669] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 14:55:08,874] {logging_mixin.py:115} INFO - [2022-09-10 14:55:08,792] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 14:55:09,615] {logging_mixin.py:115} INFO - [2022-09-10 14:55:09,415] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 14:55:09,682] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 14:55:14,989] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 6.980 seconds
+[2022-09-10 15:10:27,606] {processor.py:153} INFO - Started process (PID=8566) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:10:27,735] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 15:10:27,786] {logging_mixin.py:115} INFO - [2022-09-10 15:10:27,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:10:28,204] {logging_mixin.py:115} INFO - [2022-09-10 15:10:28,109] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 15:10:28,305] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:10:29,898] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 2.570 seconds
+[2022-09-10 15:11:10,783] {processor.py:153} INFO - Started process (PID=8597) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:11:10,793] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 15:11:10,798] {logging_mixin.py:115} INFO - [2022-09-10 15:11:10,798] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:11:10,822] {logging_mixin.py:115} INFO - [2022-09-10 15:11:10,821] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 15:11:10,823] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:11:10,942] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.184 seconds
+[2022-09-10 15:50:29,894] {processor.py:153} INFO - Started process (PID=8631) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:50:30,089] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 15:50:30,327] {logging_mixin.py:115} INFO - [2022-09-10 15:50:30,323] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:50:31,105] {logging_mixin.py:115} INFO - [2022-09-10 15:50:30,971] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 15:50:31,251] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:50:36,392] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 6.746 seconds
+[2022-09-10 15:51:16,749] {processor.py:153} INFO - Started process (PID=8693) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:51:16,752] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 15:51:16,754] {logging_mixin.py:115} INFO - [2022-09-10 15:51:16,753] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:51:16,775] {logging_mixin.py:115} INFO - [2022-09-10 15:51:16,773] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 15:51:16,777] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 15:51:16,815] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.072 seconds
+[2022-09-10 16:44:48,187] {processor.py:153} INFO - Started process (PID=8703) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 16:44:48,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 16:44:48,490] {logging_mixin.py:115} INFO - [2022-09-10 16:44:48,445] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 16:44:49,284] {logging_mixin.py:115} INFO - [2022-09-10 16:44:49,173] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 16:44:49,319] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 16:44:53,222] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 5.931 seconds
+[2022-09-10 17:38:38,578] {processor.py:153} INFO - Started process (PID=8759) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 17:38:38,586] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 17:38:38,589] {logging_mixin.py:115} INFO - [2022-09-10 17:38:38,589] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 17:38:38,604] {logging_mixin.py:115} INFO - [2022-09-10 17:38:38,602] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 17:38:38,606] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 17:38:38,711] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.142 seconds
+[2022-09-10 17:39:25,654] {processor.py:153} INFO - Started process (PID=8806) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 17:39:25,658] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 17:39:25,671] {logging_mixin.py:115} INFO - [2022-09-10 17:39:25,671] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 17:39:25,704] {logging_mixin.py:115} INFO - [2022-09-10 17:39:25,702] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 17:39:25,706] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 17:39:26,051] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.511 seconds
+[2022-09-10 18:32:56,488] {processor.py:153} INFO - Started process (PID=8843) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 18:32:56,544] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 18:32:56,686] {logging_mixin.py:115} INFO - [2022-09-10 18:32:56,666] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 18:32:57,231] {logging_mixin.py:115} INFO - [2022-09-10 18:32:57,186] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 18:32:57,424] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 18:33:00,502] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 5.056 seconds
+[2022-09-10 18:33:39,201] {processor.py:153} INFO - Started process (PID=8909) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 18:33:39,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 18:33:39,207] {logging_mixin.py:115} INFO - [2022-09-10 18:33:39,207] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 18:33:39,223] {logging_mixin.py:115} INFO - [2022-09-10 18:33:39,221] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 18:33:39,225] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 18:33:39,279] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.083 seconds
+[2022-09-10 19:27:19,791] {processor.py:153} INFO - Started process (PID=8920) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 19:27:19,880] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 19:27:19,932] {logging_mixin.py:115} INFO - [2022-09-10 19:27:19,931] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 19:27:20,839] {logging_mixin.py:115} INFO - [2022-09-10 19:27:20,573] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 19:27:20,873] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 19:27:23,190] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 4.055 seconds
+[2022-09-10 19:27:55,115] {processor.py:153} INFO - Started process (PID=8977) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 19:27:55,135] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 19:27:55,172] {logging_mixin.py:115} INFO - [2022-09-10 19:27:55,170] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 19:27:55,505] {logging_mixin.py:115} INFO - [2022-09-10 19:27:55,457] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 19:27:55,535] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 19:27:56,038] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 1.057 seconds
+[2022-09-10 20:21:29,722] {processor.py:153} INFO - Started process (PID=8986) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:21:29,759] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 20:21:29,813] {logging_mixin.py:115} INFO - [2022-09-10 20:21:29,811] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:21:30,087] {logging_mixin.py:115} INFO - [2022-09-10 20:21:30,024] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 20:21:30,157] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:21:33,815] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 4.676 seconds
+[2022-09-10 20:31:25,205] {processor.py:153} INFO - Started process (PID=9052) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:31:25,208] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 20:31:25,211] {logging_mixin.py:115} INFO - [2022-09-10 20:31:25,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:31:25,234] {logging_mixin.py:115} INFO - [2022-09-10 20:31:25,232] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 20:31:25,237] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:31:25,356] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.166 seconds
+[2022-09-10 20:48:36,275] {processor.py:153} INFO - Started process (PID=9097) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:48:36,394] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 20:48:36,499] {logging_mixin.py:115} INFO - [2022-09-10 20:48:36,475] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:48:36,869] {logging_mixin.py:115} INFO - [2022-09-10 20:48:36,826] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 20:48:37,003] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:48:42,315] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 6.750 seconds
+[2022-09-10 20:49:39,785] {processor.py:153} INFO - Started process (PID=9166) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:49:39,789] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 20:49:39,793] {logging_mixin.py:115} INFO - [2022-09-10 20:49:39,793] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:49:39,821] {logging_mixin.py:115} INFO - [2022-09-10 20:49:39,810] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 20:49:39,824] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 20:49:39,990] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.229 seconds
+[2022-09-10 21:06:02,577] {processor.py:153} INFO - Started process (PID=9224) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:06:02,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 21:06:03,176] {logging_mixin.py:115} INFO - [2022-09-10 21:06:03,175] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:06:04,161] {logging_mixin.py:115} INFO - [2022-09-10 21:06:03,875] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 21:06:04,243] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:06:11,432] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 9.895 seconds
+[2022-09-10 21:23:11,898] {processor.py:153} INFO - Started process (PID=9248) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:23:11,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 21:23:11,908] {logging_mixin.py:115} INFO - [2022-09-10 21:23:11,908] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:23:11,940] {logging_mixin.py:115} INFO - [2022-09-10 21:23:11,933] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 21:23:11,943] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:23:12,036] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.147 seconds
+[2022-09-10 21:24:00,804] {processor.py:153} INFO - Started process (PID=9299) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:24:00,810] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 21:24:00,813] {logging_mixin.py:115} INFO - [2022-09-10 21:24:00,813] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:24:00,826] {logging_mixin.py:115} INFO - [2022-09-10 21:24:00,825] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 21:24:00,828] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:24:00,964] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.164 seconds
+[2022-09-10 21:40:14,469] {processor.py:153} INFO - Started process (PID=9334) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:40:14,471] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 21:40:14,473] {logging_mixin.py:115} INFO - [2022-09-10 21:40:14,472] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:40:14,481] {logging_mixin.py:115} INFO - [2022-09-10 21:40:14,480] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 21:40:14,482] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:40:14,509] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.045 seconds
+[2022-09-10 21:41:23,229] {processor.py:153} INFO - Started process (PID=9406) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:41:23,246] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 21:41:23,250] {logging_mixin.py:115} INFO - [2022-09-10 21:41:23,250] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:41:23,279] {logging_mixin.py:115} INFO - [2022-09-10 21:41:23,278] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 21:41:23,282] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:41:23,354] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.138 seconds
+[2022-09-10 21:59:17,771] {processor.py:153} INFO - Started process (PID=9444) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:59:17,879] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 21:59:17,959] {logging_mixin.py:115} INFO - [2022-09-10 21:59:17,945] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:59:18,527] {logging_mixin.py:115} INFO - [2022-09-10 21:59:18,447] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 21:59:18,645] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 21:59:21,961] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 4.755 seconds
+[2022-09-10 22:16:03,953] {processor.py:153} INFO - Started process (PID=9484) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:16:03,955] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 22:16:03,958] {logging_mixin.py:115} INFO - [2022-09-10 22:16:03,958] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:16:03,972] {logging_mixin.py:115} INFO - [2022-09-10 22:16:03,971] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 22:16:03,974] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:16:04,016] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.113 seconds
+[2022-09-10 22:16:53,428] {processor.py:153} INFO - Started process (PID=9528) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:16:53,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 22:16:53,438] {logging_mixin.py:115} INFO - [2022-09-10 22:16:53,437] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:16:53,458] {logging_mixin.py:115} INFO - [2022-09-10 22:16:53,457] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 22:16:53,461] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:16:53,624] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.220 seconds
+[2022-09-10 22:34:17,130] {processor.py:153} INFO - Started process (PID=9564) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:34:17,131] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 22:34:17,135] {logging_mixin.py:115} INFO - [2022-09-10 22:34:17,135] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:34:17,150] {logging_mixin.py:115} INFO - [2022-09-10 22:34:17,148] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 22:34:17,152] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:34:17,203] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.079 seconds
+[2022-09-10 22:35:03,722] {processor.py:153} INFO - Started process (PID=9618) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:35:03,723] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 22:35:03,732] {logging_mixin.py:115} INFO - [2022-09-10 22:35:03,732] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:35:03,761] {logging_mixin.py:115} INFO - [2022-09-10 22:35:03,750] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 22:35:03,763] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 22:35:03,870] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.165 seconds
+[2022-09-10 23:12:19,626] {processor.py:153} INFO - Started process (PID=9644) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:12:19,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 23:12:19,798] {logging_mixin.py:115} INFO - [2022-09-10 23:12:19,796] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:12:20,309] {logging_mixin.py:115} INFO - [2022-09-10 23:12:20,173] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 23:12:20,381] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:12:24,445] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 5.593 seconds
+[2022-09-10 23:13:20,983] {processor.py:153} INFO - Started process (PID=9710) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:13:20,988] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 23:13:20,993] {logging_mixin.py:115} INFO - [2022-09-10 23:13:20,993] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:13:21,038] {logging_mixin.py:115} INFO - [2022-09-10 23:13:21,030] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 23:13:21,052] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:13:21,138] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.179 seconds
+[2022-09-10 23:13:51,302] {processor.py:153} INFO - Started process (PID=9767) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:13:51,305] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 23:13:51,307] {logging_mixin.py:115} INFO - [2022-09-10 23:13:51,307] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:13:51,322] {logging_mixin.py:115} INFO - [2022-09-10 23:13:51,321] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 23:13:51,326] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:13:51,375] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.080 seconds
+[2022-09-10 23:14:21,414] {processor.py:153} INFO - Started process (PID=9828) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:14:21,418] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 23:14:21,441] {logging_mixin.py:115} INFO - [2022-09-10 23:14:21,441] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:14:21,478] {logging_mixin.py:115} INFO - [2022-09-10 23:14:21,475] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 23:14:21,483] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:14:21,523] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.114 seconds
+[2022-09-10 23:14:51,887] {processor.py:153} INFO - Started process (PID=9883) to work on /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:14:51,891] {processor.py:641} INFO - Processing file /opt/airflow/dags/tcc_dag.py for tasks to queue
+[2022-09-10 23:14:51,915] {logging_mixin.py:115} INFO - [2022-09-10 23:14:51,915] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:14:51,954] {logging_mixin.py:115} INFO - [2022-09-10 23:14:51,952] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/tcc_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/tcc_dag.py", line 112
+    query = f"""UPDATE mydatabase.security set st_vulnerability = '{jira_status[i]}',dh_updated='{datetime.now()}' where ds_url_issue = '{row['ds_url_issue'][index]}'""""
+                                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+[2022-09-10 23:14:51,973] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/tcc_dag.py
+[2022-09-10 23:14:52,049] {processor.py:161} INFO - Processing /opt/airflow/dags/tcc_dag.py took 0.185 seconds

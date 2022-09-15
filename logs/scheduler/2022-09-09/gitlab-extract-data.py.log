@@ -1,0 +1,98 @@
+[2022-09-09 01:36:51,276] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:36:51,281] {processor.py:641} INFO - Processing file /opt/airflow/dags/gitlab-extract-data.py for tasks to queue
+[2022-09-09 01:36:51,283] {logging_mixin.py:115} INFO - [2022-09-09 01:36:51,283] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:36:51,848] {logging_mixin.py:115} INFO - [2022-09-09 01:36:51,839] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/gitlab-extract-data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gitlab-extract-data.py", line 8, in <module>
+    project_id=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:36:51,850] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:36:51,878] {processor.py:161} INFO - Processing /opt/airflow/dags/gitlab-extract-data.py took 0.607 seconds
+[2022-09-09 01:37:22,331] {processor.py:153} INFO - Started process (PID=130) to work on /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:37:22,332] {processor.py:641} INFO - Processing file /opt/airflow/dags/gitlab-extract-data.py for tasks to queue
+[2022-09-09 01:37:22,335] {logging_mixin.py:115} INFO - [2022-09-09 01:37:22,335] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:37:22,822] {logging_mixin.py:115} INFO - [2022-09-09 01:37:22,819] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/gitlab-extract-data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gitlab-extract-data.py", line 8, in <module>
+    project_id=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:37:22,824] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:37:22,850] {processor.py:161} INFO - Processing /opt/airflow/dags/gitlab-extract-data.py took 0.525 seconds
+[2022-09-09 01:37:53,459] {processor.py:153} INFO - Started process (PID=211) to work on /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:37:53,460] {processor.py:641} INFO - Processing file /opt/airflow/dags/gitlab-extract-data.py for tasks to queue
+[2022-09-09 01:37:53,462] {logging_mixin.py:115} INFO - [2022-09-09 01:37:53,462] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:37:53,838] {logging_mixin.py:115} INFO - [2022-09-09 01:37:53,835] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/gitlab-extract-data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gitlab-extract-data.py", line 8, in <module>
+    project_id=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:37:53,839] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:37:53,864] {processor.py:161} INFO - Processing /opt/airflow/dags/gitlab-extract-data.py took 0.411 seconds
+[2022-09-09 01:39:04,981] {processor.py:153} INFO - Started process (PID=48) to work on /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:39:04,990] {processor.py:641} INFO - Processing file /opt/airflow/dags/gitlab-extract-data.py for tasks to queue
+[2022-09-09 01:39:04,995] {logging_mixin.py:115} INFO - [2022-09-09 01:39:04,994] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:39:05,978] {logging_mixin.py:115} INFO - [2022-09-09 01:39:05,975] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/gitlab-extract-data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gitlab-extract-data.py", line 8, in <module>
+    project_id=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:39:05,979] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:39:06,008] {processor.py:161} INFO - Processing /opt/airflow/dags/gitlab-extract-data.py took 1.033 seconds
+[2022-09-09 01:39:36,546] {processor.py:153} INFO - Started process (PID=121) to work on /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:39:36,561] {processor.py:641} INFO - Processing file /opt/airflow/dags/gitlab-extract-data.py for tasks to queue
+[2022-09-09 01:39:36,563] {logging_mixin.py:115} INFO - [2022-09-09 01:39:36,562] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:39:37,186] {logging_mixin.py:115} INFO - [2022-09-09 01:39:37,183] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/gitlab-extract-data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gitlab-extract-data.py", line 8, in <module>
+    project_id=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:39:37,187] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:39:37,213] {processor.py:161} INFO - Processing /opt/airflow/dags/gitlab-extract-data.py took 0.671 seconds
+[2022-09-09 01:40:07,412] {processor.py:153} INFO - Started process (PID=207) to work on /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:40:07,413] {processor.py:641} INFO - Processing file /opt/airflow/dags/gitlab-extract-data.py for tasks to queue
+[2022-09-09 01:40:07,421] {logging_mixin.py:115} INFO - [2022-09-09 01:40:07,420] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:40:08,056] {logging_mixin.py:115} INFO - [2022-09-09 01:40:08,052] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/gitlab-extract-data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gitlab-extract-data.py", line 8, in <module>
+    project_id=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:40:08,063] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:40:08,098] {processor.py:161} INFO - Processing /opt/airflow/dags/gitlab-extract-data.py took 0.692 seconds
+[2022-09-09 01:40:38,199] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:40:38,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/gitlab-extract-data.py for tasks to queue
+[2022-09-09 01:40:38,217] {logging_mixin.py:115} INFO - [2022-09-09 01:40:38,216] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:40:38,673] {logging_mixin.py:115} INFO - [2022-09-09 01:40:38,670] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/gitlab-extract-data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gitlab-extract-data.py", line 8, in <module>
+    project_id=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:40:38,675] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/gitlab-extract-data.py
+[2022-09-09 01:40:38,706] {processor.py:161} INFO - Processing /opt/airflow/dags/gitlab-extract-data.py took 0.511 seconds

@@ -1,0 +1,32 @@
+[2022-09-08 23:32:18,956] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.github-sca-data manual__2022-09-08T23:32:15.565824+00:00 [queued]>
+[2022-09-08 23:32:18,975] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.github-sca-data manual__2022-09-08T23:32:15.565824+00:00 [queued]>
+[2022-09-08 23:32:18,976] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-08 23:32:18,978] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-08 23:32:18,979] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-08 23:32:19,050] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): github-sca-data> on 2022-09-08 23:32:15.565824+00:00
+[2022-09-08 23:32:19,063] {standard_task_runner.py:52} INFO - Started process 81 to run task
+[2022-09-08 23:32:19,092] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tcc_dag', 'github-sca-data', 'manual__2022-09-08T23:32:15.565824+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/tcc_dag.py', '--cfg-path', '/tmp/tmpnsvieto_', '--error-file', '/tmp/tmpmfypyjez']
+[2022-09-08 23:32:19,094] {standard_task_runner.py:80} INFO - Job 114: Subtask github-sca-data
+[2022-09-08 23:32:19,436] {task_command.py:369} INFO - Running <TaskInstance: tcc_dag.github-sca-data manual__2022-09-08T23:32:15.565824+00:00 [running]> on host 9a5942a886e3
+[2022-09-08 23:32:19,806] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Michelle Mesquita
+AIRFLOW_CTX_DAG_ID=tcc_dag
+AIRFLOW_CTX_TASK_ID=github-sca-data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-08T23:32:15.565824+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-08T23:32:15.565824+00:00
+[2022-09-08 23:32:19,827] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tcc_dag.py", line 52, in get_github_data
+    for x in open("./repository.txt", "r"):
+FileNotFoundError: [Errno 2] No such file or directory: './repository.txt'
+[2022-09-08 23:32:19,988] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=tcc_dag, task_id=github-sca-data, execution_date=20220908T233215, start_date=20220908T233218, end_date=20220908T233219
+[2022-09-08 23:32:20,044] {standard_task_runner.py:97} ERROR - Failed to execute job 114 for task github-sca-data ([Errno 2] No such file or directory: './repository.txt'; 81)
+[2022-09-08 23:32:20,090] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-09-08 23:32:20,708] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

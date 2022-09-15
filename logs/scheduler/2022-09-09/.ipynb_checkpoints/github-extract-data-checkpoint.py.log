@@ -1,0 +1,98 @@
+[2022-09-09 01:36:49,483] {processor.py:153} INFO - Started process (PID=48) to work on /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:36:49,485] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py for tasks to queue
+[2022-09-09 01:36:49,487] {logging_mixin.py:115} INFO - [2022-09-09 01:36:49,486] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:36:50,341] {logging_mixin.py:115} INFO - [2022-09-09 01:36:50,334] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py", line 8, in <module>
+    repository=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:36:50,343] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:36:50,390] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py took 0.911 seconds
+[2022-09-09 01:37:21,327] {processor.py:153} INFO - Started process (PID=123) to work on /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:37:21,329] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py for tasks to queue
+[2022-09-09 01:37:21,330] {logging_mixin.py:115} INFO - [2022-09-09 01:37:21,330] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:37:21,753] {logging_mixin.py:115} INFO - [2022-09-09 01:37:21,749] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py", line 8, in <module>
+    repository=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:37:21,755] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:37:21,803] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py took 0.482 seconds
+[2022-09-09 01:37:52,023] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:37:52,024] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py for tasks to queue
+[2022-09-09 01:37:52,026] {logging_mixin.py:115} INFO - [2022-09-09 01:37:52,026] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:37:52,455] {logging_mixin.py:115} INFO - [2022-09-09 01:37:52,452] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py", line 8, in <module>
+    repository=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:37:52,457] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:37:52,485] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py took 0.465 seconds
+[2022-09-09 01:39:06,095] {processor.py:153} INFO - Started process (PID=53) to work on /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:39:06,097] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py for tasks to queue
+[2022-09-09 01:39:06,100] {logging_mixin.py:115} INFO - [2022-09-09 01:39:06,099] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:39:06,699] {logging_mixin.py:115} INFO - [2022-09-09 01:39:06,696] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py", line 8, in <module>
+    repository=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:39:06,700] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:39:06,761] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py took 0.671 seconds
+[2022-09-09 01:39:37,678] {processor.py:153} INFO - Started process (PID=127) to work on /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:39:37,680] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py for tasks to queue
+[2022-09-09 01:39:37,682] {logging_mixin.py:115} INFO - [2022-09-09 01:39:37,682] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:39:38,109] {logging_mixin.py:115} INFO - [2022-09-09 01:39:38,106] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py", line 8, in <module>
+    repository=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:39:38,110] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:39:38,135] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py took 0.467 seconds
+[2022-09-09 01:40:08,761] {processor.py:153} INFO - Started process (PID=213) to work on /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:40:08,764] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py for tasks to queue
+[2022-09-09 01:40:08,766] {logging_mixin.py:115} INFO - [2022-09-09 01:40:08,766] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:40:09,282] {logging_mixin.py:115} INFO - [2022-09-09 01:40:09,279] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py", line 8, in <module>
+    repository=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:40:09,284] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:40:09,311] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py took 0.559 seconds
+[2022-09-09 01:40:39,712] {processor.py:153} INFO - Started process (PID=290) to work on /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:40:39,714] {processor.py:641} INFO - Processing file /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py for tasks to queue
+[2022-09-09 01:40:39,716] {logging_mixin.py:115} INFO - [2022-09-09 01:40:39,715] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:40:40,067] {logging_mixin.py:115} INFO - [2022-09-09 01:40:40,065] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py", line 8, in <module>
+    repository=sys.argv[1]
+NameError: name 'sys' is not defined
+[2022-09-09 01:40:40,069] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py
+[2022-09-09 01:40:40,093] {processor.py:161} INFO - Processing /opt/airflow/dags/.ipynb_checkpoints/github-extract-data-checkpoint.py took 0.384 seconds

@@ -1,0 +1,2 @@
+,index,nm_squad,ds_title,nm_repository,in_criticity,dt_created,dt_closed,st_vulnerability,in_deadline,ds_url_issue,nm_source_data,tool,cd_month_start,cd_month_end,id_vulnerability,dt_added
+17,15,michelleamesquita,Cross-site Scripting (XSS) Reflected,https://github.com/michelleamesquita/python-simple-web-app/tree/e529fec903190c40b30ad9d2626ac96ef31dcf30,High,2022-09-12,2022-10-12,closed,good :) ,app/app.py,SAST,Snyk,2022-09,2022-10,17,2022-09-12 20:59:09

@@ -1,0 +1,5 @@
+sqlalchemy
+config
+mysql-connector-python
+requests
+json

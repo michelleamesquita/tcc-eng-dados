@@ -1,0 +1,32 @@
+[2022-09-13 00:05:31,289] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.generate-card-trello manual__2022-09-13T00:05:21.932520+00:00 [queued]>
+[2022-09-13 00:05:31,302] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.generate-card-trello manual__2022-09-13T00:05:21.932520+00:00 [queued]>
+[2022-09-13 00:05:31,303] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-13 00:05:31,305] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-13 00:05:31,306] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-13 00:05:31,327] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): generate-card-trello> on 2022-09-13 00:05:21.932520+00:00
+[2022-09-13 00:05:31,335] {standard_task_runner.py:52} INFO - Started process 28079 to run task
+[2022-09-13 00:05:31,346] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tcc_dag', 'generate-card-trello', 'manual__2022-09-13T00:05:21.932520+00:00', '--job-id', '746', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/tcc_dag-checkpoint.py', '--cfg-path', '/tmp/tmp22e9129l', '--error-file', '/tmp/tmpknpbeu3v']
+[2022-09-13 00:05:31,349] {standard_task_runner.py:80} INFO - Job 746: Subtask generate-card-trello
+[2022-09-13 00:05:31,456] {task_command.py:369} INFO - Running <TaskInstance: tcc_dag.generate-card-trello manual__2022-09-13T00:05:21.932520+00:00 [running]> on host b6ddae3e9f9e
+[2022-09-13 00:05:31,594] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Michelle Mesquita
+AIRFLOW_CTX_DAG_ID=tcc_dag
+AIRFLOW_CTX_TASK_ID=generate-card-trello
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-13T00:05:21.932520+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-13T00:05:21.932520+00:00
+[2022-09-13 00:05:33,593] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/.ipynb_checkpoints/tcc_dag-checkpoint.py", line 206, in generate_card_trello
+    for i in range(len(trello_title)):
+TypeError: object of type 'function' has no len()
+[2022-09-13 00:05:33,623] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=tcc_dag, task_id=generate-card-trello, execution_date=20220913T000521, start_date=20220913T000531, end_date=20220913T000533
+[2022-09-13 00:05:33,668] {standard_task_runner.py:97} ERROR - Failed to execute job 746 for task generate-card-trello (object of type 'function' has no len(); 28079)
+[2022-09-13 00:05:33,707] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-09-13 00:05:33,804] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

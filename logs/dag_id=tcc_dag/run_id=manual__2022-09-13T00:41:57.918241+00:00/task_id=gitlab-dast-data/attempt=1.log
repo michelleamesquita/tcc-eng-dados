@@ -1,0 +1,24 @@
+[2022-09-13 00:41:59,243] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.gitlab-dast-data manual__2022-09-13T00:41:57.918241+00:00 [queued]>
+[2022-09-13 00:41:59,254] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.gitlab-dast-data manual__2022-09-13T00:41:57.918241+00:00 [queued]>
+[2022-09-13 00:41:59,255] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-13 00:41:59,255] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-13 00:41:59,256] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-13 00:41:59,271] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): gitlab-dast-data> on 2022-09-13 00:41:57.918241+00:00
+[2022-09-13 00:41:59,282] {standard_task_runner.py:52} INFO - Started process 30379 to run task
+[2022-09-13 00:41:59,286] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tcc_dag', 'gitlab-dast-data', 'manual__2022-09-13T00:41:57.918241+00:00', '--job-id', '796', '--raw', '--subdir', 'DAGS_FOLDER/tcc_dag.py', '--cfg-path', '/tmp/tmpr3sifqu4', '--error-file', '/tmp/tmpx46yyv5r']
+[2022-09-13 00:41:59,288] {standard_task_runner.py:80} INFO - Job 796: Subtask gitlab-dast-data
+[2022-09-13 00:41:59,401] {task_command.py:369} INFO - Running <TaskInstance: tcc_dag.gitlab-dast-data manual__2022-09-13T00:41:57.918241+00:00 [running]> on host b6ddae3e9f9e
+[2022-09-13 00:41:59,582] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Michelle Mesquita
+AIRFLOW_CTX_DAG_ID=tcc_dag
+AIRFLOW_CTX_TASK_ID=gitlab-dast-data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-13T00:41:57.918241+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-13T00:41:57.918241+00:00
+[2022-09-13 00:41:59,588] {logging_mixin.py:115} INFO - project_id: 28815326
+[2022-09-13 00:42:02,492] {python.py:173} INFO - Done. Returned value was: None
+[2022-09-13 00:42:02,514] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tcc_dag, task_id=gitlab-dast-data, execution_date=20220913T004157, start_date=20220913T004159, end_date=20220913T004202
+[2022-09-13 00:42:02,565] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-13 00:42:02,621] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

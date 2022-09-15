@@ -1,0 +1,24 @@
+[2022-09-11 21:33:58,975] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.generate-csv-data manual__2022-09-11T21:33:51.057630+00:00 [queued]>
+[2022-09-11 21:33:58,988] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.generate-csv-data manual__2022-09-11T21:33:51.057630+00:00 [queued]>
+[2022-09-11 21:33:58,989] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-11 21:33:58,990] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-11 21:33:58,990] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-11 21:33:59,004] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): generate-csv-data> on 2022-09-11 21:33:51.057630+00:00
+[2022-09-11 21:33:59,010] {standard_task_runner.py:52} INFO - Started process 3185 to run task
+[2022-09-11 21:33:59,013] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tcc_dag', 'generate-csv-data', 'manual__2022-09-11T21:33:51.057630+00:00', '--job-id', '553', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/tcc_dag-checkpoint.py', '--cfg-path', '/tmp/tmpp8ki_pwe', '--error-file', '/tmp/tmpuqyse7ef']
+[2022-09-11 21:33:59,015] {standard_task_runner.py:80} INFO - Job 553: Subtask generate-csv-data
+[2022-09-11 21:33:59,083] {task_command.py:369} INFO - Running <TaskInstance: tcc_dag.generate-csv-data manual__2022-09-11T21:33:51.057630+00:00 [running]> on host b6ddae3e9f9e
+[2022-09-11 21:33:59,164] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Michelle Mesquita
+AIRFLOW_CTX_DAG_ID=tcc_dag
+AIRFLOW_CTX_TASK_ID=generate-csv-data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-11T21:33:51.057630+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-11T21:33:51.057630+00:00
+[2022-09-11 21:33:59,203] {logging_mixin.py:115} INFO - finished
+[2022-09-11 21:33:59,204] {python.py:173} INFO - Done. Returned value was: None
+[2022-09-11 21:33:59,220] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tcc_dag, task_id=generate-csv-data, execution_date=20220911T213351, start_date=20220911T213358, end_date=20220911T213359
+[2022-09-11 21:33:59,269] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-11 21:33:59,322] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

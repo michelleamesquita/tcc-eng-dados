@@ -1,0 +1,25 @@
+[2022-09-12 04:23:57,996] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.add-db-data manual__2022-09-12T04:23:46.352340+00:00 [queued]>
+[2022-09-12 04:23:58,009] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.add-db-data manual__2022-09-12T04:23:46.352340+00:00 [queued]>
+[2022-09-12 04:23:58,010] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-12 04:23:58,011] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-12 04:23:58,012] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-12 04:23:58,027] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): add-db-data> on 2022-09-12 04:23:46.352340+00:00
+[2022-09-12 04:23:58,033] {standard_task_runner.py:52} INFO - Started process 22443 to run task
+[2022-09-12 04:23:58,037] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tcc_dag', 'add-db-data', 'manual__2022-09-12T04:23:46.352340+00:00', '--job-id', '692', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/tcc_dag-checkpoint.py', '--cfg-path', '/tmp/tmprjvvn52i', '--error-file', '/tmp/tmprc26vioi']
+[2022-09-12 04:23:58,038] {standard_task_runner.py:80} INFO - Job 692: Subtask add-db-data
+[2022-09-12 04:23:58,115] {task_command.py:369} INFO - Running <TaskInstance: tcc_dag.add-db-data manual__2022-09-12T04:23:46.352340+00:00 [running]> on host b6ddae3e9f9e
+[2022-09-12 04:23:58,197] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Michelle Mesquita
+AIRFLOW_CTX_DAG_ID=tcc_dag
+AIRFLOW_CTX_TASK_ID=add-db-data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-12T04:23:46.352340+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-12T04:23:46.352340+00:00
+[2022-09-12 04:23:58,212] {logging_mixin.py:115} INFO - Connecting to the MySQL database...
+[2022-09-12 04:23:58,238] {logging_mixin.py:115} INFO - Database connection closed.
+[2022-09-12 04:23:58,254] {python.py:173} INFO - Done. Returned value was: None
+[2022-09-12 04:23:58,269] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=tcc_dag, task_id=add-db-data, execution_date=20220912T042346, start_date=20220912T042357, end_date=20220912T042358
+[2022-09-12 04:23:58,301] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-12 04:23:58,340] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

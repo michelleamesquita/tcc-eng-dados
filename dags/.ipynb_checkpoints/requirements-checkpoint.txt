@@ -1,0 +1,3 @@
+sqlalchemy
+config
+mysql-connector-python

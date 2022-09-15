@@ -1,0 +1,43 @@
+[2022-09-13 00:04:26,085] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.add-db-data manual__2022-09-13T00:04:15.487587+00:00 [queued]>
+[2022-09-13 00:04:26,111] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: tcc_dag.add-db-data manual__2022-09-13T00:04:15.487587+00:00 [queued]>
+[2022-09-13 00:04:26,112] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-13 00:04:26,113] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-09-13 00:04:26,113] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-13 00:04:26,127] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): add-db-data> on 2022-09-13 00:04:15.487587+00:00
+[2022-09-13 00:04:26,133] {standard_task_runner.py:52} INFO - Started process 27981 to run task
+[2022-09-13 00:04:26,137] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'tcc_dag', 'add-db-data', 'manual__2022-09-13T00:04:15.487587+00:00', '--job-id', '740', '--raw', '--subdir', 'DAGS_FOLDER/tcc_dag.py', '--cfg-path', '/tmp/tmpqd488mqg', '--error-file', '/tmp/tmp8ygv4r_y']
+[2022-09-13 00:04:26,138] {standard_task_runner.py:80} INFO - Job 740: Subtask add-db-data
+[2022-09-13 00:04:26,203] {task_command.py:369} INFO - Running <TaskInstance: tcc_dag.add-db-data manual__2022-09-13T00:04:15.487587+00:00 [running]> on host b6ddae3e9f9e
+[2022-09-13 00:04:26,279] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Michelle Mesquita
+AIRFLOW_CTX_DAG_ID=tcc_dag
+AIRFLOW_CTX_TASK_ID=add-db-data
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-13T00:04:15.487587+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-13T00:04:15.487587+00:00
+[2022-09-13 00:04:26,295] {logging_mixin.py:115} INFO - Connecting to the MySQL database...
+[2022-09-13 00:04:26,319] {logging_mixin.py:115} INFO - Database connection closed.
+[2022-09-13 00:04:26,331] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tcc_dag.py", line 122, in add_db_data
+    df_diff1.index  = df_diff.index + len(df_db)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 5500, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas/_libs/properties.pyx", line 70, in pandas._libs.properties.AxisProperty.__set__
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 766, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/internals/managers.py", line 216, in set_axis
+    self._validate_set_axis(axis, new_labels)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/internals/base.py", line 58, in _validate_set_axis
+    f"Length mismatch: Expected axis has {old_len} elements, new "
+ValueError: Length mismatch: Expected axis has 2 elements, new values have 4 elements
+[2022-09-13 00:04:26,369] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=tcc_dag, task_id=add-db-data, execution_date=20220913T000415, start_date=20220913T000426, end_date=20220913T000426
+[2022-09-13 00:04:26,390] {standard_task_runner.py:97} ERROR - Failed to execute job 740 for task add-db-data (Length mismatch: Expected axis has 2 elements, new values have 4 elements; 27981)
+[2022-09-13 00:04:26,433] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-09-13 00:04:26,477] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
